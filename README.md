@@ -25,7 +25,7 @@ mvn clean package -DskipTests
 5. Diríjase a la carpeta target creada en el paso 4 y escriba el siguiente comando en la consola:
 
 ```bash
-java -jar simple-proxy-server-1.0
+java -jar simple-proxy-server-1.0.jar
 ```
 
 6. Una vez iniciada la aplicación, diríjase a su navegador y escriba en la barra de direcciones: http://localhost:8080/https://www.google.com
